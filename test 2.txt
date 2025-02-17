@@ -1,0 +1,10 @@
+git status
+gid add <file name>
+git add .    -- to add all files
+git commit -m "First Commit"
+git status
+git branch
+git branch -m main
+git remote add origin <URL of git repository>
+git remote -v
+git push origin main
