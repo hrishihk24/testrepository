@@ -8,3 +8,4 @@ git branch -m main
 git remote add origin <URL of git repository>
 git remote -v
 git push origin main
+git remote set-url origin <new URL> --to change the origin
