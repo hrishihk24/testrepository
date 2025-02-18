@@ -1,3 +1,4 @@
+cd ..       -- to back to parent directory
 git status
 gid add <file name>
 git add .    -- to add all files
