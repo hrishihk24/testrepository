@@ -1,4 +1,5 @@
 cd ..       -- to back to parent directory
+git --help
 git status
 gid add <file name>
 git add .    -- to add all files
