@@ -12,14 +12,7 @@ git remote -v
 git push origin main
 git remote set-url origin <new URL> --to change the origin
 
-This error means that the directory you are working in is not recognized as a Git repository. Here’s how you can troubleshoot and fix it:
 
-### **1. Make Sure You Are in a Git Repository**
-Run:
-```sh
-git status
-```
-If you see the error again, it means you are not inside a Git repository. Navigate to the correct project directory where Git is initialized.
 
 ### **2. Check If the `.git` Folder Exists**
 Run:
@@ -57,4 +50,3 @@ git clone <your-repo-url>
 cd <repo-name>
 ```
 
-Let me know what step worked for you or if you need more help! 🚀
