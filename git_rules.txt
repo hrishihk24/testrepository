@@ -3,13 +3,13 @@ git --help
 git status
 gid add <file name>
 git add .    -- to add all files
-git commit -m "First Commit"
+git commit -m "First Commit"           ---to move to the staging environment
 git status
 git branch
 git branch -m main
 git remote add origin <URL of git repository>
 git remote -v
-git push origin main
+git push origin main                        --- to push to the repository from the staging environment
 git remote set-url origin <new URL> --to change the origin
 
 
@@ -52,3 +52,17 @@ cd <repo-name>
 git restore --staged "New Text Document.txt"      -- after git add command, if you want to unstage it, use this.
 Same can be done using
 git rest [file name]
+
+git diff --staged       --used to see the diff between unstaged and staged docs i.e.before and after commit command.
+
+
+BRANCH & MERGE
+==============
+
+git branch -- will give list of all branches
+
+git branch [new branch name] --will create a new branch
+
+git checkout [new branch name] -- will switch from the main branch
+
+
