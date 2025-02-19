@@ -63,6 +63,19 @@ git branch -- will give list of all branches
 
 git branch [new branch name] --will create a new branch
 
-git checkout [new branch name] -- will switch from the main branch
+git checkout [new branch name] -- will switch from the main branch to the new branch.
+
+Do all the work and now we want to merge the commit to the main branch.
+Fisrt check out to the main branch.
+
+git checkout main
+
+git merger [new branch name]       ---
+
+next push it
+git push origin main
 
 
+git log -- shows the log previous commits.
+
+git log -p -3               --- if we need only last 3 commits.
