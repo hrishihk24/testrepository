@@ -15,40 +15,40 @@ git remote set-url origin <new URL> --to change the origin
 
 
 ### **2. Check If the `.git` Folder Exists**
-Run:
-```sh
+
 ls -la
-```
+
 or on Windows:
-```sh
+
 dir /a
-```
+
+
 If there is no `.git` directory, it means Git is not initialized in this folder.
 
 ### **3. Reinitialize Git (If Needed)**
 If you accidentally deleted the `.git` folder or if Git was never initialized, you need to reinitialize the repository:
-```sh
+
 git init
-```
+
 Then, add your remote repository again:
-```sh
+
 git remote add origin <your-repo-url>
-```
+
 
 ### **4. If You Were Inside a Subdirectory**
 If the repository is in a parent directory, move up the directory tree:
-```sh
+
 cd ..
 git status
-```
+
 Repeat until you find the Git repository.
 
 ### **5. Clone the Repository Again (If Necessary)**
 If you lost the repository locally, you might need to re-clone it:
-```sh
+
 git clone <your-repo-url>
 cd <repo-name>
-```
+
 git restore --staged "New Text Document.txt"      -- after git add command, if you want to unstage it, use this.
 Same can be done using
 git rest [file name]
